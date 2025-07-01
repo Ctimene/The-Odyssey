@@ -1,31 +1,31 @@
-body {
-    font-family: 'Cardo', 'New Times Roman';
+/* File: css/styles.css */
+
+
+body{
+    font-family: 'PT Serif', sans-serif;
     font-size: 18px;
-    color: #855b00;
+    color: #c93f78;
     line-height: 1.5;
+    background: #fff3fc;
 }
 
-a {
+a{
     text-decoration: none;
-    color: #855b00;
+    color: #c93f78;
 }
 
-ul {
-    list-style-type: none;
+ul{
+    list-style: none;
 }
 
-img {
+img{
     max-width: 100%;
     height: auto;
 }
 
-h1, h2, h3 {
-    color: #855b00;
-}
-
-/* Navbar */
+/*Navbar*/
 .navbar {
-    background: #000000;
+    background: #fff3fc;
     padding: 20px;
 }
 
@@ -34,6 +34,7 @@ h1, h2, h3 {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .navbar ul {
     display: flex;
@@ -47,16 +48,16 @@ h1, h2, h3 {
     transition: 0.75s;
 }
 
-.navbar ul li a:hover {
-    color: #ffffff;
+.navbar ul li a:hover{
+    color: #c93f78;
 }
 
-/* Hero Section */
+/*Hero Section*/
 .hero {
     margin-bottom: 50px;
 }
 
-/* Utility Classes */
+/*Utility Classes*/
 .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -68,59 +69,42 @@ h1, h2, h3 {
     padding: 0 15px;
 }
 
-/* Text Classes */
+/* Text CLasses */
 .text-xxl {
-    font-size: 2.6 rem;
+    font-size: 2.6rem;
     line-height: 1.2;
     font-weight: 600;
     margin: 40px 0 20px;
 }
 
 .text-xl {
-    font-size: 2.2 rem;
+    font-size: 2.2rem;
     line-height: 1.4;
     font-weight: normal;
     margin: 40px 0 20px;
 }
 
 .text-lg {
-    font-size: 1.8 rem;
+    font-size: 1.8rem;
     line-height: 1.4;
     font-weight: normal;
     margin: 30px 0 20px;
 }
 
 .text-md {
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-weight: normal;
     margin: 20px 0 10px;
 }
 
 .text-sm {
-    font-size: 0.9 rem;
+    font-size: 0.9rem;
     line-height: 1.4;
     font-weight: normal;
-    margin: 10px 0 5px;
+    margin: 10px 0 5;
 }
 
 .text-center {
     text-align: center;
-}
-
-
-
-/* Footer */
-.footer {
-    background: #000000;
-    color: #ffffff;
-    padding: 20px 0;
-}
-.footer p {
-    margin: 0;
-    text-align: center;
-}
-.footer a {
-    color: #ffffff;
-    text-decoration: underline;
 }
