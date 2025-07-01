@@ -1,0 +1,126 @@
+body {
+    font-family: 'Cardo', 'New Times Roman';
+    font-size: 18px;
+    color: #855b00;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #855b00;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: #855b00;
+}
+
+/* Navbar */
+.navbar {
+    background: #000000;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.75s;
+}
+
+.navbar ul li a:hover {
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    margin-bottom: 50px;
+}
+
+/* Utility Classes */
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Text Classes */
+.text-xxl {
+    font-size: 2.6 rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.2 rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8 rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.2 rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 0.9 rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* Footer */
+.footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
