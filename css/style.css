@@ -3,13 +3,13 @@
 body {
     font-family: 'Cardo', 'New Times Roman';
     font-size: 18px;
-    color: #855b00;
+    color: #9b6a00;
     line-height: 1.5;
 }
 
 a {
     text-decoration: none;
-    color: #855b00;
+    color: #9b6a00;
 }
 
 ul {
@@ -22,12 +22,12 @@ img {
 }
 
 h1, h2, h3 {
-    color: #855b00;
+    color: #9b6a00;
 }
 
 /* Navbar */
 .navbar {
-    background: #000000;
+    background: #ffffff;
     padding: 20px;
 }
 
@@ -50,7 +50,7 @@ h1, h2, h3 {
 }
 
 .navbar ul li a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 /* Hero Section */
@@ -112,8 +112,8 @@ h1, h2, h3 {
 
 /* Footer */
 .footer {
-    background: #000000;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     padding: 20px 0;
 }
 .footer p {
@@ -121,6 +121,6 @@ h1, h2, h3 {
     text-align: center;
 }
 .footer a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: underline;
 }
