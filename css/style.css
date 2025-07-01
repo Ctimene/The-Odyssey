@@ -1,31 +1,33 @@
 /* File: css/styles.css */
 
-
-body{
-    font-family: 'PT Serif', sans-serif;
+body {
+    font-family: 'Cardo', 'New Times Roman';
     font-size: 18px;
-    color: #c93f78;
+    color: #855b00;
     line-height: 1.5;
-    background: #fff3fc;
 }
 
-a{
+a {
     text-decoration: none;
-    color: #c93f78;
+    color: #855b00;
 }
 
-ul{
-    list-style: none;
+ul {
+    list-style-type: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-/*Navbar*/
+h1, h2, h3 {
+    color: #855b00;
+}
+
+/* Navbar */
 .navbar {
-    background: #fff3fc;
+    background: #000000;
     padding: 20px;
 }
 
@@ -34,7 +36,6 @@ img{
     justify-content: space-between;
     align-items: center;
 }
-
 
 .navbar ul {
     display: flex;
@@ -48,16 +49,16 @@ img{
     transition: 0.75s;
 }
 
-.navbar ul li a:hover{
-    color: #c93f78;
+.navbar ul li a:hover {
+    color: #ffffff;
 }
 
-/*Hero Section*/
+/* Hero Section */
 .hero {
     margin-bottom: 50px;
 }
 
-/*Utility Classes*/
+/* Utility Classes */
 .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -69,42 +70,57 @@ img{
     padding: 0 15px;
 }
 
-/* Text CLasses */
+/* Text Classes */
 .text-xxl {
-    font-size: 2.6rem;
+    font-size: 2.6 rem;
     line-height: 1.2;
     font-weight: 600;
     margin: 40px 0 20px;
 }
 
 .text-xl {
-    font-size: 2.2rem;
+    font-size: 2.2 rem;
     line-height: 1.4;
     font-weight: normal;
     margin: 40px 0 20px;
 }
 
 .text-lg {
-    font-size: 1.8rem;
+    font-size: 1.8 rem;
     line-height: 1.4;
     font-weight: normal;
     margin: 30px 0 20px;
 }
 
 .text-md {
-    font-size: 1.2rem;
+    font-size: 1.2 rem;
     line-height: 1.4;
     font-weight: normal;
     margin: 20px 0 10px;
 }
 
 .text-sm {
-    font-size: 0.9rem;
+    font-size: 0.9 rem;
     line-height: 1.4;
     font-weight: normal;
-    margin: 10px 0 5;
+    margin: 10px 0 5px;
 }
 
 .text-center {
     text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
 }
