@@ -3,13 +3,13 @@
 body {
     font-family: 'Cardo', 'New Times Roman';
     font-size: 18px;
-    color: #000000;
+    color: #BA6B1D;
     line-height: 1.5;
 }
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #BA6B1D;
 }
 
 ul {
@@ -23,8 +23,8 @@ img {
 
 /* Navbar */
 .navbar {
-    color: #ffffff;
-    background-color: #ffffff;
+    /* color: #ffffff;
+    background-color: #ffffff; */
     top: 0;
     padding: 7.5px 20px;
 }
@@ -48,7 +48,7 @@ img {
 }
 
 .navbar ul li a:hover {
-    color: #000000;
+    color: #BA6B1D;
 }
 
 
@@ -140,7 +140,7 @@ img {
 
 /* Footer */
 .footer {
-    color: #3d2a00;
+    color: #BA6B1D;
     bottom: 0;
 }
 
@@ -151,6 +151,6 @@ img {
 }
 
 .footer a {
-    color: #9b6a00;
+    color: #BA6B1D;
     text-decoration: underline;
 }
