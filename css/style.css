@@ -23,8 +23,6 @@ img {
 
 /* Navbar */
 .navbar {
-    /* color: #ffffff;
-    background-color: #ffffff; */
     top: 0;
     padding: 7.5px 20px;
 }
@@ -176,7 +174,7 @@ img {
 .moble-menu {
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -600px;
     width: 250px;
     height: 100%;
     z-index: 100;
@@ -205,9 +203,6 @@ img {
 
 /* Media Queries */
 @media (max-width: 960px) {
-    .text-xxl {
-        font-size: 2.5rem;
-    }
 }
 
 @media (max-width: 670px) {
@@ -230,16 +225,16 @@ img {
         width: 100%
     }
 
-    /* Text */
+    Text
     .text-xl {
         font-size: 1.9rem;
     }
 
-    text-lg {
+    .text-lg {
         font-size: 1.5rem;
     }
 
-    text-md {
+    .text-md {
         font-size: 1.1rem;
     }
 }
