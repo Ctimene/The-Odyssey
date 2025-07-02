@@ -26,8 +26,7 @@ img {
     color: #ffffff;
     background-color: #ffffff;
     top: 0;
-    padding: 8px 20px;
-    position: sticky;
+    padding: 7.5px 20px;
 }
 
 .navbar .container {
@@ -56,10 +55,6 @@ img {
 
 
 
-
-
-
-
 /* Main Content */
 .main-content {
     padding: 20px;
@@ -81,8 +76,6 @@ img {
     display: block;
     font-weight: 600;
 }
-
-
 
 
 
