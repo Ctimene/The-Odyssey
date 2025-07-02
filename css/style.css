@@ -27,7 +27,6 @@ h1, h2, h3 {
 
 /* Navbar */
 .navbar {
-    background: #ffffff;
     padding: 20px;
 }
 
@@ -112,15 +111,29 @@ h1, h2, h3 {
 
 /* Footer */
 .footer {
-    background: #ffffff;
-    color: #000000;
-    padding: 20px 0;
+    height: 80px;
+    color: #3d2a00;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+.main-content {
+    min-height: calc(100vh - 60px);
+}
+
+.push {
+    height: 80px;
+}
+
 .footer p {
-    margin: 0;
-    text-align: center;
+    font-size: 0.5 rem;
+    line-height: 1.2;
+    font-weight: normal;
+    margin: 10px 0 5px;
 }
+
 .footer a {
-    color: #000000;
+    color: #3d2a00;
     text-decoration: underline;
 }
