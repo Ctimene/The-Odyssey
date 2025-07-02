@@ -21,13 +21,13 @@ img {
     height: auto;
 }
 
-h1, h2, h3 {
-    color: #000000;
-}
-
 /* Navbar */
 .navbar {
-    padding: 20px;
+    color: #ffffff;
+    background-color: #ffffff;
+    top: 0;
+    padding: 8px 20px;
+    position: sticky;
 }
 
 .navbar .container {
@@ -42,7 +42,7 @@ h1, h2, h3 {
 }
 
 .navbar ul li a {
-    padding: 10px 20px;
+    padding: 10 20px;
     display: block;
     font-weight: 600;
     transition: 0.75s;
@@ -51,6 +51,42 @@ h1, h2, h3 {
 .navbar ul li a:hover {
     color: #000000;
 }
+
+
+
+
+
+
+
+
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+}
+
+.main-content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content ul {
+    display: flex;
+    gap: 10px;
+}
+
+.main-content ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+}
+
+
+
+
+
+
 
 /* Hero Section */
 .hero {
@@ -112,7 +148,6 @@ h1, h2, h3 {
 /* Footer */
 .footer {
     color: #3d2a00;
-    position: fixed;
     bottom: 0;
 }
 
