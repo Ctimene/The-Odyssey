@@ -37,11 +37,11 @@ img {
 
 .navbar ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .navbar ul li a {
-    padding: 10 20px;
+    padding: 7.5px 20px;
     display: block;
     font-weight: 600;
     transition: 0.75s;
