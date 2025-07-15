@@ -12,10 +12,6 @@ a {
     color: #BA6B1D;
 }
 
-ul {
-    list-style-type: none;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -50,9 +46,6 @@ img {
 }
 
 
-
-
-
 /* Main */
 .main {
     padding: 5px 20px;
@@ -76,9 +69,6 @@ img {
 }
 
 
-
-
-
 /* Hero Section */
 .hero {
     margin-bottom: 50px;
@@ -97,8 +87,12 @@ img {
 }
 
 /* Text Classes */
-.text-xl {
+.text-xxl {
     font-size: 1.9rem;
+}
+
+.text-xl {
+    font-size: 1.7rem;
 }
 
 .text-lg {
@@ -106,7 +100,8 @@ img {
 }
 
 .text-md {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    margin: -15px;
 }
 
 .text-sm {
@@ -115,6 +110,19 @@ img {
 
 .text-center {
     text-align: center;
+}
+
+/* List Styles */
+.list-md {
+    list-style-type: cirlce;
+    padding: 0px 15px;
+    font-size: 1.2rem;
+}
+
+.list-sm {
+    list-style-type: 1;
+    padding: 0px 15px;
+    font-size: 1.1rem;
 }
 
 /* Footer */
