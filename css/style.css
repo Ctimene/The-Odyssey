@@ -61,7 +61,7 @@ img {
     align-items: center;
 }
 
-.main ul {
+/*.main ul {
     display: flex;
     gap: 10px;
 }
@@ -70,7 +70,7 @@ img {
     padding: 5px 20px;
     display: block;
     font-weight: 600;
-}
+} */
 
 
 /* Hero Section */
