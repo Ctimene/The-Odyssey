@@ -105,15 +105,12 @@ img {
 
 .text-md {
     font-size: 1.2rem;
-    margin: -15px;
+    margin: -20px 0px 0px 0px;
 }
 
 .text-sm {
     font-size: 0.98rem;
-}
-
-.text-center {
-    text-align: center;
+    margin: -20px 0px 0px 0px;
 }
 
 /* List Styles */
